@@ -24,7 +24,7 @@ export const App = () => {
   return isRefreshing ? (
     <b>Refreshing user...</b>
   ) : (
-    <Suspense fallback={<div>Loading...</div>}>
+    <Suspense fallback={null}>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
@@ -47,7 +47,7 @@ export const App = () => {
             }
           />
           <Route
-            path="/tasks"
+            path="/contacts"
             element={
               <PrivateRoute redirectTo="/login" component={<ContactsPage />} />
             }

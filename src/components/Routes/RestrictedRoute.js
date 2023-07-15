@@ -5,7 +5,6 @@ import PropTypes from "prop-types";
 
 export const RestrictedRoute = ({ component: Component, redirectTo = "/" }) => {
   const isLoggedIn = useSelector(selectIsLoggedIn);
-  console.log(Component);
   return isLoggedIn ? <Navigate to={redirectTo} /> : Component;
 };
 

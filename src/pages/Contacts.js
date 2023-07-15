@@ -21,7 +21,7 @@ export const Contacts = () => {
       {!contacts.length ? (
         <div className="noContacts">NO CONTACTS IN BOOK</div>
       ) : (
-        <div className="container">
+        <div className="containerList">
           <Filter />
           <h2>Contacts</h2>
           {<ContactList />}

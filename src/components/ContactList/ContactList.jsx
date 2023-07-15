@@ -31,10 +31,10 @@ export const ContactList = () => {
         <div className="noContacts">Sorry no contact with this search!</div>
       ) : (
         <ul className={styles.list}>
-          {contacts.map(({ id, name, phone }) => (
+          {contacts.map(({ id, name, number }) => (
             <li className={styles.list_item} key={id}>
               <p className="list_text">{name}</p>
-              <p className="list_text">{phone}</p>
+              <p className="list_text">{number}</p>
               <button
                 className={styles.list_button}
                 type="submit"

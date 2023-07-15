@@ -1,0 +1,13 @@
+.box {
+  max-width: 1960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.background {
+  color: brown;
+  background-image: url(../../public/istockphoto-485946989-612x612.jpg);
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
