@@ -1,0 +1,35 @@
+.list {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #a9a9a985;
+  border-radius: 10px;
+}
+.list_item {
+  background-color: dodgerblue;
+  display: flex;
+  color: white;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 0 10px;
+  margin: 20px 0;
+}
+
+.list_button {
+  border-radius: 10px;
+  background-color: white;
+  color: dodgerblue;
+  font-weight: bold;
+  border: 1px solid black;
+  height: 40px;
+}
+.list_button:hover {
+  background-color: dodgerblue;
+  color: white;
+  box-shadow: 0.5rem 0.5rem 2rem rgb(255, 255, 255),
+    -0.5rem -0.5rem 2rem rgb(255, 255, 255);
+  border: white;
+}
